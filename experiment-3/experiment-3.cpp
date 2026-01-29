@@ -43,12 +43,10 @@ int main() {
 
     solve(0);
   
-    for (auto &sol : result) {
-        for (auto &row : sol)
-            cout << row << endl;
-        cout << "------\n";
+for (int i = 0; i < result.size(); i++) {        
+    for (int j = 0; j < result[i].size(); j++) { 
+        cout << result[i][j] << endl;
     }
-
     return 0;
 }
 
