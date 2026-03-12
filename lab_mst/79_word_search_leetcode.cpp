@@ -34,3 +34,5 @@ bool dfs(vector<vector<char>>& board, string& word, int i, int j, int n, vector<
         return false;
     }
 };
+
+// O(m*n*4^l)   // l = word length 
